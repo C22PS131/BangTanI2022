@@ -1,4 +1,4 @@
-Nitrogen (N),Fosforus (P),Kalium (K),Suhu,Kelembaban,pH,Curah Hujan,Label
+Nitrogen (N),Fosforus (P),Kalium (K),Suhu,Kelembaban,pH,Curah_Hujan,Label
 90,42,43,20.87974371,82.00274423,6.502985292,202.9355362,padi
 85,58,41,21.77046169,80.31964408,7.038096361,226.6555374,padi
 60,55,44,23.00445915,82.3207629,7.840207144,263.9642476,padi
