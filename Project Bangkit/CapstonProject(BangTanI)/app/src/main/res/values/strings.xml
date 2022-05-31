@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BangTanI</string>
+    <string name="message_welcome_page">Beragam fitur pertanian dalam satu genggaman, dalam memantau pertanian di Indonesia</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_up">REGISTER</string>
+    <string name="sign_up1">Register</string>
+    <string name="label_welcome">Selamat Datang di BangTani!</string>
+    <string name="label_login_welcome_desc">Masukkan dulu Datamu ya…</string>
+    <string name="label_kode_koperasi">Kode Koperasi</string>
+    <string name="label_password">Password</string>
+    <string name="action_login">Login</string>
+    <string name="label_is_havent_account">Don\'t have account ?</string>
+    <string name="action_to_register">Register here</string>
+    <string name="copyright">\@2022 BangTani Corp</string>
+    <string name="label_register_welcome_desc">Lengkapi data dirimu di bawah ini ya…</string>
+    <string name="label_nama">Nama Koperasi</string>
+    <string name="action_register">Register</string>
+    <string name="label_is_have_account">Already have account ?</string>
+    <string name="action_to_login">Login Here</string>
+    <string name="error_empty_name">Please insert your name</string>
+    <string name="error_empty_email">Please insert your email</string>
+    <string name="error_invalid_email">The email is invalid</string>
+    <string name="error_empty_password">Please insert your password</string>
+    <string name="error_password_more_6">Password must more than 6 character</string>
+
+</resources>

@@ -1,0 +1,23 @@
+,Tanaman,Nitrogen (N),Fosforus (P),Kalium (K),pH,Kelembaban_tanah
+0,nasi,80,40,40,5.5,30
+3,jagung,80,40,20,5.5,50
+5,buncis,40,60,80,5.5,60
+12,kacang merah,20,60,20,5.5,45
+13,kacang polong,20,60,20,5.5,45
+14,kacang ngengat,20,40,20,5.5,30
+15,kacang hijau,20,40,20,5.5,80
+18,kacang lentil hitam,40,60,20,5,60
+24,lentil,20,60,20,5.5,90
+60,delima,20,10,40,5.5,30
+61,pisang,100,75,50,6.5,40
+62,mangga,20,20,30,5,15
+63,anggur,20,125,200,4,60
+66,semangka,100,10,50,5.5,70
+67,melon kesturi,100,10,50,5.5,30
+69,apel,20,125,200,6.5,50
+74,jeruk,20,10,10,4,60
+75,pepaya,50,50,50,6,20
+88,kelapa,20,10,30,5,45
+93,kapas,120,40,20,5.5,70
+94,yute,80,40,40,5.5,20
+95,kopi,100,20,30,5.5,20
