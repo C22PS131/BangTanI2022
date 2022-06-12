@@ -4,7 +4,7 @@ var conn = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "",
-    database:"bangtani_2022",
+    database:"bangtani2022",
 });
 
 conn.query = util.promisify(conn.query).bind(conn);

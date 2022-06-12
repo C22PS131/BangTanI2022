@@ -37,9 +37,9 @@ const addUserHandler = async (request, h) => {
         insbdpertanian = "";
     }
 
-    const id = nanoid (16);
+    const id = nanoid (8);
        
-    var sql = "INSERT INTO `user` (`kd_koperasi`, `nm_koperasi`, `email`, `password`, `alamat`, `luas_lahan`, `bd_pertanian`) VALUES (?, ?, ?, ?, ?, ? ,?);";
+    var sql = "INSERT INTO `user_reg` (`kd_koperasi`, `nm_koperasi`, `email`, `password`, `alamat`, `luas_lahan`, `bd_pertanian`) VALUES (?, ?, ?, ?, ?, ? ,?);";
     let result= await conn.query(sql, [id, nm_koperasi, email, password, insAlamat, insluaslahan, insbdpertanian]);
 
     return await responseData(result,id, h);    
@@ -68,7 +68,7 @@ const checkLoginHandler = async function checkLogin (request, h){
          email, password
     } = request.payload;
 
-    var sql = "SELECT kd_koperasi FROM user WHERE email = ? AND password = ?";
+    var sql = "SELECT kd_koperasi FROM user_reg WHERE email = ? AND password = ?";
     let data = await conn.query(sql, [email, password]);
     await console.log(data[0]);
     return await returnData(data[0], h);
@@ -140,7 +140,7 @@ const editUserHandler = async (request, h) => {
         insbdpertanian = "";
     }
        
-    var sql = "UPDATE user SET nm_koperasi=?, email=?, password=?, alamat=?, luas_lahan=?, bd_pertanian=? WHERE kd_koperasi=?;";
+    var sql = "UPDATE user_reg SET nm_koperasi=?, email=?, password=?, alamat=?, luas_lahan=?, bd_pertanian=? WHERE kd_koperasi=?;";
     let result= await conn.query(sql, [nm_koperasi, email, password, insAlamat, insluaslahan, insbdpertanian, kd_koperasi]);
     return await responseUpdateData(result, kd_koperasi, h);    
 };       
