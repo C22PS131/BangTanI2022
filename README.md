@@ -66,8 +66,4 @@ Contact us
 4. Dewi Putri Ayuningsih - A2007F0653@bangkit.academy
 5. Antonio Marco Lukito - C2234F2128@bangkit.academy
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
 
