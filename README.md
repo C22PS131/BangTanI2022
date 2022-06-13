@@ -27,7 +27,7 @@
 
 [<div align="center">
   <a href="https://github.com/C22PS131/BangTanI2022">
-    <img src="assets/apps-demo.png" alt="Logo" >
+    <img src="assets/apps-demo.png" >
   </a>(#)
 
 Indonesia is a country rich in agriculture therefore, as Indonesian citizen they must be able to take care of existing agriculture. however, currently there are still many who cheat on agricultural care in Indonesia, especially in the manufacture of fertilizer. there are so many who commmit fraud in the manufacture of fertilizers. such as mixing fertizers with other ingredients that can damage fertilizers. this a challenge for goverment in assisting farmer groups in managing agriculture in Indonesia, BangTani is one of the appications to help the goverment and farming in managing existing agriculture, especially in predicting native fertilizers and managing fertilizer supply chain management in Indonesia. 
